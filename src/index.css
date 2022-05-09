@@ -1,0 +1,120 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  margin: 0px;
+  padding: 0px; 
+  background-color: rgb(0, 0, 0); 
+  color: #007fb1;
+  font-size: 18px
+}
+.navbar{
+  font-family: 'Alice', serif;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+#mainmenu{
+  padding-top: 15px;
+}
+a, a:link, a:visited{
+  text-decoration: none;
+  color: #007fb1;
+}
+ul{
+  text-align: center;
+  width: 100%;
+}
+li{
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 127, 177, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: #007fb1;
+  border-width: 2px;
+} 
+.custom-toggler.navbar-toggler:hover{
+  box-shadow: inset 0 0 8px rgb(126, 169, 185), 0 0 8px rgb(126, 169, 185);
+  filter: brightness(150%);
+}
+a:hover{
+  color: rgb(118, 125, 129) !important;
+  text-shadow: 1px 1px 2px rgb(63, 63, 63), 0 0 1em rgb(0, 132, 255), 0 0 0.2em rgb(174, 232, 255);
+  filter: brightness(180%);
+} 
+#logo{
+  margin-bottom: 0;
+  background: url("../public/logo103x75.png") no-repeat;
+  min-height: 75px;
+  border: 2px solid #016a94;
+  /* musi być ten kolor ramki żeby pasował do logo */
+  border-radius: 3px;
+  filter: brightness(1.2); 
+  transition: transform 0.5s ease-in-out;
+
+}
+.logoImage{
+  min-width: 103px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+#logo:hover{
+  box-shadow: inset 0 0 8px rgb(126, 169, 185), 0 0 8px rgb(126, 169, 185);
+  filter: brightness(110%);
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+    transform: scale(1.07);
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  margin: auto;
+  width: 100%;
+  font-size: 18px;
+
+}
+.footerCol{
+  max-width: 25%;
+  display: inline-block;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #007fb1;
+}
+.footerLink{
+  color: #007fb1;
+}
+
+@media (max-width: 750px){
+	/* Wszystko, co znajdzie się pomiędzy klamrami będzie obowiązywać tylko dla szerokości ekranu maks. 575px (max bo wpisaliśmy max-width, inaczej trochę nie ma sensu) */
+
+  .footer{
+    display: block;
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    text-align: left;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .footerCol{
+    max-width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #007fb1;
+  }
+  .footerCol > p{
+    text-align: left;
+  }
+
+
+}
+

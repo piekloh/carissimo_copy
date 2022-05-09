@@ -1,0 +1,148 @@
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+ position: relative;
+ opacity: 1;
+ background-attachment: fixed;/* unieruchamia obrazek */
+ background-position: center;/* wyśrodkowuje obrazek */
+ background-repeat: no-repeat;/* nie powtarza obrazka gdy jest za mały(tylko jedna sztuka jest widocza) */
+ background-size: cover; /* wypełnia całą przestrzeń w prypadku za małego obrazka */
+}
+.bgimg-1 {
+ background-image: url("../img/bmw1_dark_smaller_gray.jpg"); /*nie wszystkie obrazki tła muszą być unieruchomione*/
+ min-height: 430px;
+ border-bottom: 1px solid #007fb1;
+}
+
+.bgimg-2 {
+ background-image: url("../img/bmw2_dark_80_smaller_gray.jpg");
+ min-height: 300px;
+ border-top: 1px solid #007fb1;
+ border-bottom: 1px solid #007fb1;
+}
+
+.bgimg-3 {
+ background-image: url("../img/bmw3_dark_smaller_gray.jpg");
+ min-height: 300px;
+ border-top: 1px solid #007fb1;
+ border-bottom: 1px solid #007fb1;
+}
+.bgimg-4 {
+  background-image: url("../img/footer_dark_smaller_gray.jpg"); /*nie wszystkie obrazki tła muszą być unieruchomione*/
+  min-height: 300px;
+  border-top: 1px solid #007fb1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+ }
+.text1{
+ color: #777;
+ background-color:#000000;
+ padding:50px 80px;
+ text-align: justify;
+ max-width: 900px;
+ margin: auto;
+}
+.text2{
+  width: 900px;
+ color:#ddd;
+ background-color:#000000;
+ text-align:center;
+ padding:50px 80px;
+ min-height: 550px;
+ margin: auto;
+}
+.caption1 {
+ position: absolute;
+ top: 2%; /*w jakim procencie wys./szer. diva ma być napis klasy "caption"*/
+ width: 100%;
+ text-align: center;
+ color: #000;
+}
+.caption {
+  font-family: 'Alice', serif;
+  position: absolute;
+  top: 45%; /*w jakim procencie wys./szer. diva ma być napis klasy "caption"*/
+  width: 100%;
+  text-align: center;
+ }
+.caption span.border {
+ background-color: #111;
+ color: #fff;
+ padding: 18px;
+ font-size: 30px;
+ letter-spacing: 10px;
+ position: relative;
+ z-index: 1;
+}
+.bgimg-2 span.border{
+ background-color:transparent;
+}
+.bgimg-3 span.border{
+ background-color:transparent;
+}
+h3 {
+ letter-spacing: 5px;
+ font-family: 'Alice', serif;
+ /* color: #007fb1; */
+ text-align: center;
+}
+p{
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  color: #007fb1;
+  margin-left: auto;
+  margin-right: auto;
+}
+#listHome {
+  margin: auto;
+  margin-bottom: 40px;
+  color: #007fb1;
+  text-align: left;
+  list-style-type: disc;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+
+}
+ul li{
+  color: #007fb1;
+  display: list-item;
+}
+ol li{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (max-width: 840px){
+
+  .bgimg-4 {
+    background-image: url("../img/footer_dark_smaller_gray.jpg"); /*nie wszystkie obrazki tła muszą być unieruchomione*/
+    min-height: 650px;
+    border-top: 1px solid #007fb1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   }
+   .text1{
+    padding: 10px 10px;
+   }
+   .text2{
+    padding: 10px 10px;
+   }
+
+}
+
+
+
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+/* @media only screen and (max-device-width: 1024px) {
+ .bgimg-1, .bgimg-2, .bgimg-3 {
+   background-attachment: scroll;
+ }
+} */

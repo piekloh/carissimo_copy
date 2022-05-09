@@ -1,0 +1,76 @@
+.contact{
+  max-width: 900px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact h3{
+  text-align: center;
+}
+.contactWrapper{
+  max-width: 80%;
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+.contactCol{
+  padding-top: 30px;
+  max-width: 50%;
+  display: inline-block;
+} 
+.contactCol li{
+  margin: 10px;
+  font-size: 22px;
+}
+.hours{
+  padding-top: 30px;
+  max-width: 50%;
+  padding-left: 90px;
+  display: inline-block;
+}
+.hours ol{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.hours ol li{
+  padding-top: 4px;
+}
+.contact .map{
+  max-width: 900px;
+}
+.map iframe{
+  width: 720px;
+  height: 455px;
+  display: block;
+  margin: auto;
+}
+.seeYou{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 750px){
+	/* Wszystko, co znajdzie się pomiędzy klamrami będzie obowiązywać tylko dla szerokości ekranu maks. 575px (max bo wpisaliśmy max-width, inaczej trochę nie ma sensu) */
+
+  .contactCol{
+    display: block;
+    max-width: 100%;
+  } 
+  .hours{
+    display: block;
+    max-width: 100%;
+    padding-left: 0;
+
+  }
+  .map iframe{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contactWrapper{
+    max-width: 80%;
+    display: block;
+    padding-left: 0px;
+    text-align: left;
+  }
+}
