@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/carissimo_copy/static/css/main.e152d7d0.css",
+    "main.js": "/carissimo_copy/static/js/main.2192bae3.js",
+    "static/js/787.8cd7f74e.chunk.js": "/carissimo_copy/static/js/787.8cd7f74e.chunk.js",
+    "static/media/bmw1_dark_smaller_gray.jpg": "/carissimo_copy/static/media/bmw1_dark_smaller_gray.6bf73fb69db9f35605c8.jpg",
+    "static/media/footer_dark_smaller_gray.jpg": "/carissimo_copy/static/media/footer_dark_smaller_gray.01042d52f34778956762.jpg",
+    "static/media/bmw2_dark_80_smaller_gray.jpg": "/carissimo_copy/static/media/bmw2_dark_80_smaller_gray.0f0e74c52ed6f208bc71.jpg",
+    "static/media/sprailaLogo.jpg": "/carissimo_copy/static/media/sprailaLogo.3217655743effe992d12.jpg",
+    "static/media/audiRS7_1280x720.jpg": "/carissimo_copy/static/media/audiRS7_1280x720.f8d60b61bf70ff78e471.jpg",
+    "static/media/bmw3_dark_smaller_gray.jpg": "/carissimo_copy/static/media/bmw3_dark_smaller_gray.7fc97725a69575da3557.jpg",
+    "static/media/bmwM3F80_1280x720.jpg": "/carissimo_copy/static/media/bmwM3F80_1280x720.ed31d798e77a6c1c9625.jpg",
+    "static/media/maseratiGhibli_1280x720.jpg": "/carissimo_copy/static/media/maseratiGhibli_1280x720.e0fc07c6440385cd3615.jpg",
+    "static/media/bmwE92_1280x720.jpg": "/carissimo_copy/static/media/bmwE92_1280x720.24fb03903e1a3e549944.jpg",
+    "static/media/lamborghiniGallardo_1280x720.jpg": "/carissimo_copy/static/media/lamborghiniGallardo_1280x720.5d14fbd38538ee9f5421.jpg",
+    "static/media/logo512_black.png": "/carissimo_copy/static/media/logo512_black.871f40acc05e836522ec.png",
+    "static/media/timSamuel.jpg": "/carissimo_copy/static/media/timSamuel.c5d9c44ce21a3d832414.jpg",
+    "static/media/afLogo.jpg": "/carissimo_copy/static/media/afLogo.0d623017220580203dd2.jpg",
+    "static/media/bmwLogo.jpg": "/carissimo_copy/static/media/bmwLogo.38de6357f6efdae51498.jpg",
+    "static/media/sonaxLogo.jpg": "/carissimo_copy/static/media/sonaxLogo.ce245065d261ca0ab030.jpg",
+    "index.html": "/carissimo_copy/index.html",
+    "main.e152d7d0.css.map": "/carissimo_copy/static/css/main.e152d7d0.css.map",
+    "main.2192bae3.js.map": "/carissimo_copy/static/js/main.2192bae3.js.map",
+    "787.8cd7f74e.chunk.js.map": "/carissimo_copy/static/js/787.8cd7f74e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e152d7d0.css",
+    "static/js/main.2192bae3.js"
+  ]
+}
