@@ -25,7 +25,7 @@
 .hours{
   padding-top: 30px;
   max-width: 50%;
-  padding-left: 90px;
+  padding-left: 80px;
   display: inline-block;
 }
 .hours ol{
@@ -72,5 +72,8 @@
     display: block;
     padding-left: 0px;
     text-align: left;
+  }
+  .contactCol ol{
+    padding-left: 10px;
   }
 }

@@ -28,7 +28,7 @@ function ContactText(){
     </div>
 
     <div className="map">
-    <iframe className="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9223.370219053597!2d20.990938040761808!3d52.2442000196172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ed229a25a9d2b%3A0x4f0a8ec831854836!2sSosnowa%2024%2C%2005-075%20Warszawa!5e0!3m2!1spl!2spl!4v1651785366394!5m2!1spl!2spl" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+    <iframe className="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.755295714368!2d16.848138315756863!3d51.149863479577945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f956f80eb412d%3A0xef690c9d5fc8d12d!2sSosnowa%2024%2C%2054-015%20Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1652219459255!5m2!1spl!2spl" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
     
     </div>
   </>)

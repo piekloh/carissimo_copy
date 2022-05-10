@@ -13,7 +13,7 @@ function Services(){
     <span><Navbar/></span>
     </div>
     <div className='adv'>
-      <Link to="/contact"><h3><u><b>UMÓW SIĘ NA WIZYTĘ JUŻ TERAZ!</b></u></h3></Link>
+      <Link to="/contact"><h3><u>UMÓW SIĘ NA WIZYTĘ JUŻ TERAZ!</u></h3></Link>
     </div>
   </div>
   

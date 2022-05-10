@@ -58,7 +58,7 @@
  color: #000;
 }
 .caption {
-  font-family: 'Alice', serif;
+  font-family: 'Bree Serif', serif;
   position: absolute;
   top: 45%; /*w jakim procencie wys./szer. diva ma być napis klasy "caption"*/
   width: 100%;
@@ -81,12 +81,12 @@
 }
 h3 {
  letter-spacing: 5px;
- font-family: 'Alice', serif;
+ font-family: 'Bree Serif', serif;
  /* color: #007fb1; */
  text-align: center;
 }
 p{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
   color: #007fb1;
   margin-left: auto;

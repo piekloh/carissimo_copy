@@ -14,7 +14,7 @@ function AboutUs(){
     <span><Navbar/></span>
     </div>
     <div className='adv'>
-      <Link to="/contact"><h3><u><b>UMÓW SIĘ NA WIZYTĘ JUŻ TERAZ!</b></u></h3></Link>
+      <Link to="/contact"><h3><u>UMÓW SIĘ NA WIZYTĘ JUŻ TERAZ!</u></h3></Link>
     </div>
   </div>
   <h3 className='founderHeader'>Kim jesteśmy?</h3>
@@ -29,7 +29,7 @@ function AboutUs(){
   
   <div className="bgimg-2">
     <div className="caption">
-    <h3><b>HISTORIA FIRMY:</b></h3>
+    <h3>HISTORIA FIRMY:</h3>
     </div>
   </div>
   
