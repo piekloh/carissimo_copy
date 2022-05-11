@@ -1,3 +1,51 @@
+The website of Carissimo - Detailing Center (fictional brand, created by me) located in Wrocław. 
+The application was created in React.js - Javascript's library.
+
+Technologies and "extras" used in the project:
+- HTML
+- CSS
+- Javascript
+- React.js
+- JSX
+- Bootstrap
+- Google Fonts
+- Fontello
+
+Preview:
+
+1. Homepage
+![obraz](https://user-images.githubusercontent.com/81360745/167824093-58c4250c-3799-4ec5-967f-5feda28fa249.png)
+
+2. Footer and hover effects
+![obraz](https://user-images.githubusercontent.com/81360745/167824295-fc826d78-350e-44bf-b6e2-7326fb687c73.png)
+
+3. Gallery
+![obraz](https://user-images.githubusercontent.com/81360745/167824466-4a18269d-0961-4c80-bed5-561d45280b35.png)
+
+4. Contact page on a mobile device
+![obraz](https://user-images.githubusercontent.com/81360745/167824677-a2cbef75-8acf-4592-9f10-077e7a89d552.png)
+
+5. Footer and part of gallery on a mobile device
+![obraz](https://user-images.githubusercontent.com/81360745/167824899-8cd18fc6-39b5-40ae-a4ee-271b10c233d1.png)
+
+
+To run the app:
+- You need to have Node.js nad Node Package Manager installed. 
+- If you are good to go:
+1. Clone this repository to selected directory
+2. Open a terminal in project's directory
+3. Type "npm install"
+4. Type "npm start"
+
+In case of problems typing the following commands might be necessary.
+1. rm -rf package-lock.json npm-shrinkwrap.json node_modules
+2. npm cache clean --force
+3. npm cache verify
+4. npm install
+5. npm start
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
