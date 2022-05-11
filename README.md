@@ -1,5 +1,5 @@
 The website of Carissimo - Detailing Center (fictional brand, created by me) located in Wrocław. 
-The application was created in React.js - Javascript's library.
+The application was created with React.js - Javascript's library.
 
 Technologies and "extras" used in the project:
 - HTML
@@ -23,9 +23,11 @@ Preview:
 ![obraz](https://user-images.githubusercontent.com/81360745/167824466-4a18269d-0961-4c80-bed5-561d45280b35.png)
 
 4. Contact page on a mobile device
+
 ![obraz](https://user-images.githubusercontent.com/81360745/167824677-a2cbef75-8acf-4592-9f10-077e7a89d552.png)
 
 5. Footer and part of gallery on a mobile device
+
 ![obraz](https://user-images.githubusercontent.com/81360745/167824899-8cd18fc6-39b5-40ae-a4ee-271b10c233d1.png)
 
 
